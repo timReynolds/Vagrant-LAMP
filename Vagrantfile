@@ -32,6 +32,7 @@ Vagrant::Config.run do |config|
     chef.add_recipe "php::module_apc"
     chef.add_recipe "php::module_curl"
     chef.add_recipe "php::module_mysql"
+    chef.add_recipe "php::module_mcrypt"
     chef.add_recipe "apache2::mod_php5"
     chef.add_recipe "apache2::mod_rewrite"
     chef.add_recipe "git"
