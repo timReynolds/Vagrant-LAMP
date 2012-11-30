@@ -13,3 +13,6 @@
 [submodule "cookbooks/openssl"]
 	path = cookbooks/openssl
 	url = git://github.com/opscode-cookbooks/openssl.git
+[submodule "cookbooks/php"]
+	path = cookbooks/php
+	url = git@github.com:timReynolds/php.git
