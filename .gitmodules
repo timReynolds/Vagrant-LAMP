@@ -16,3 +16,6 @@
 [submodule "cookbooks/php"]
 	path = cookbooks/php
 	url = git@github.com:timReynolds/php.git
+[submodule "cookbooks/composer"]
+	path = cookbooks/composer
+	url = git://github.com/escapestudios/chef-composer.git
