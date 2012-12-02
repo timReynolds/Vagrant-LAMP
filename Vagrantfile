@@ -40,6 +40,8 @@ Vagrant::Config.run do |config|
     chef.json = {
         :mysql => {
             :server_root_password => 'root',
+            :server_repl_password => 'root',
+            :server_debian_password => 'root',
             :bind_address => '127.0.0.1'
         }
     } 
